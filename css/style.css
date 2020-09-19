@@ -1,0 +1,34 @@
+*{
+   font-family: 'Times New Roman', Times, sans-serif;
+   font-size: 16px;
+   line-height: 22px;
+}
+h2 {
+   font-size: 22px;
+   text-transform: uppercase;
+}
+.container { 
+   display: flex;
+   max-width: 930px;
+   margin: 0 auto;
+}
+.black_block {
+   width: 33%;
+   padding: 20px 20px 0px 20px;
+   background-color: Grey;
+   color: white;
+   
+}
+.white_block {
+   width: 66%;
+   padding: 0px 50px 0px 50px;
+   background-color: whitesmoke;
+}
+li a {
+   color:white;
+   text-decoration: none;
+}
+li a:hover {
+   text-decoration: underline;
+}
+
