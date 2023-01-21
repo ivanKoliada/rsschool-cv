@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>CV</title>
+</head>
+
+<body>
+   <section>
+      <div class="container">
+         <div class="black_block">
+            <img src="img/photo2020.jpg" alt="avatar">
+            <h2>Contacts:</h2>
+            <ul>
+               <li>Ivan Koliada</li>
+               <li><a href="tel:+375336161903" class="phone_number">+375 33 616 19 03</a></li>
+               <li><a href="mailto:Ivan.Koliada69@gmail.com" class="email_address">Ivan.Koliada69@gmail.com</a></li>
+            </ul>
+            <hr>
+            <h2>Education:</h2>
+            <ul>
+               <li>End date 2018, Brest State Technical University, Economist, Faculty of Finance and Credit</li>
+            </ul>
+            <hr>
+            <h2>Language skills:</h2>
+            <ul>
+               <li>Russian – native</li>
+               <li>English - pre-Intermediate</li>
+            </ul>
+         </div>
+         <div class="white_block">
+            <h2>Objective:</h2>
+            <p>Full stack developer</p>
+            <hr>
+            <h2>Personal qualities / character:</h2>
+            <ul>
+               <li>Hard-working</li>
+               <li>Quick training</li>
+               <li>Attentive</li>
+               <li>Responsible</li>
+            </ul>
+            <hr>
+            <h2>Skills and technology:</h2>
+            <ul>
+               <li>Git Intermediate</li>
+               <li>HTML Intermediate</li>
+               <li>CSS Intermediate</li>
+               <li>JS Advanced</li>
+               <li>ReactJS Basic</li>
+               <li>Redux Basic</li>
+               <li>Redux Toolkit Basic</li>
+               <li>NodeJS Basic</li>
+               <li>NestJS Basic</li>
+               <li>REST API Intermediate</li>
+               <li>GraphQL Basic</li>
+               <li>Websocket Basic</li>
+            </ul>
+            <hr>
+            <h2>Experience:</h2>
+            <p>WEB-developer udemy course</p>
+            <p>JavaScript + React + Redux udemy course</p>
+            <p>THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT-END 2022Q1</p>
+            <p>THE ROLLING SCOPES SCHOOL NodeJS 2022Q4</p>
+            <hr>
+            <h2>Code examples:</h2>
+            <pre>
+                  @Get(':id')
+                  @ApiOperation({
+                    summary: 'Get winner by id',
+                  })
+
+                  @ApiOkResponse({
+                    type: [WinnerEntity],
+                    description: 'OK',
+                  })
+
+                  @ApiNotFoundResponse({
+                    schema: { type: 'object' },
+                    description: 'NOT FOUND',
+                  })
+
+                  async getWinner(@Param('id', new ParseIntPipe()) id: number) {
+                    const winner = await this.winnersService.getWinner(id);
+                    if (winner) return winner;
+
+                    throw new HttpException('Winner not found', HttpStatus.NOT_FOUND);
+                  }
+            </pre>
+            <hr>
+         </div>
+      </div>
+   </section>
+</body>
+
+</html>
