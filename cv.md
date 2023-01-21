@@ -8,7 +8,7 @@
 
 # Objective:
 
-Full stack developer
+- Full stack developer
 
 # Personal qualities / character:
 
@@ -17,7 +17,7 @@ Full stack developer
 - Attentive
 - Responsible
 
-# Skills:
+# Skills and technology:
 
 - Bootstrap 4
 - BEM methodology
@@ -33,15 +33,17 @@ Full stack developer
 - REST API Intermediate
 - GraphQL Basic
 - Websocket Basic
-***
+
 # Experience:
 
 - WEB-developer udemy course
 - JavaScript + React + Redux udemy course
 - THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT-END 2022Q1
 - THE ROLLING SCOPES SCHOOL NodeJS 2022Q4
+
 # Code examples 
-```sh
+
+```
 @Get(':id')
 @ApiOperation({
   summary: 'Get winner by id',
@@ -63,10 +65,11 @@ async getWinner(@Param('id', new ParseIntPipe()) id: number) {
 
   throw new HttpException('Winner not found', HttpStatus.NOT_FOUND);
 }
-```    
+```
 # Education:
 
 - End date 2018, Brest State Technical University, Economist, Faculty of Finance and Credit
+
 # Language skills:
 
 - Russian – native
