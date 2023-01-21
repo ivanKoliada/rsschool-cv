@@ -37,9 +37,9 @@ Full stack developer
 # Experience:
 
 WEB-developer udemy course
-JavaScript + React + Redux udemy course
-THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT-END 2022Q1
-THE ROLLING SCOPES SCHOOL NodeJS 2022Q4
+- JavaScript + React + Redux udemy course
+- THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT-END 2022Q1
+- THE ROLLING SCOPES SCHOOL NodeJS 2022Q4
 # Code examples 
 ```sh
 @Get(':id')
